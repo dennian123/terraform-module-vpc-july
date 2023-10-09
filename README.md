@@ -2,7 +2,7 @@
 
 ## Usage:
 
-'''hcl
+```hcl
 module "vp" {
     source = ""
     version = "0.0.1"
@@ -16,4 +16,4 @@ module "vp" {
     ip_on_launch = true
     instance_type = "t2.micro"
 }
-'''
+```
